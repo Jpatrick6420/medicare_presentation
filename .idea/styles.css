@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+}
+
+#original_medicare{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+    width:50%;
+    height:10rem;
+    border: 2px solid black;
+    border-radius: 25%;
+    background: linear-gradient(to right, red 50%, blue 50%);
+    color:white;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+
+
+.translate_up{
+    transform: translateY(-200%);
+    transition: transform 500ms ease-in;
+}
+
+.original_medicare_list{
+    font-size:.8rem;
+
+    transition: transform 500ms ease-in;
+
+}
+
+.translate_left{
+    transform:translateX(-200%);
+}
+
+.pro_con_lists_for_supplements, .pro_con_lists_for_advantage{
+    font-size: .8rem;}
+
+.plans_wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.block{
+    display: block;
+}
+
+.none{
+    display:none;
+}
+
+
+
+.pro_con_lists_for_supplements{
+    display:none;}
+
+
+.buttons_wrapper{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    gap: 1rem;}

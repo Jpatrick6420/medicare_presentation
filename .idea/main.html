@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="../index.js" defer></script>
+</head>
+<body>
+
+<div class = "buttons_wrapper">
+    <button id="prev_btn">Previous</button>
+    <button id="next_btn">Next</button>
+</div>
+<section class="original_medicare">
+    <h1>Original Medicare</h1>
+
+
+    <div id = "original_medicare">
+        <div class="medicare_a">Plan A
+            <p>$0</p></div>
+        <div class="medicare_b translate_up">Plan B
+            <p>$185</p></div>
+    </div>
+    <ul class="original_medicare_list translate_left">
+        <li>80/20</li>
+        <li>No prescription meds</li>
+        <li>No hearing, vision or dental insurance</li>
+        <li>No Long Term Care</li>
+    </ul>
+
+</section>
+
+<h4>*All Options fit in one of two categories</h4>
+
+
+<section class="plans_wrapper">
+    <section id="supplemental_plan" class="none">
+        <h3>
+            Suplemental Plans
+        </h3>
+        <ul>
+            <li>Higher Premium (~120 for 65 years old. Scales with age)</li>
+            <li>No network</li>
+            <li>No Referals</li>
+            <li>Only extends medicare</li>
+            <li>257 dollar deductable</li>
+        </ul>
+
+        <p>
+            Plan D for drug plan <span>~$40</span>
+        </p>
+        <p>
+            Hearing, vision, Dental plan
+            <span>~40</span>
+        </p>
+        <div id= "pro_con_lists_for_supplements" class=" none">
+            Pro
+            <ul>
+                <li>Amazing Coverage</li>
+                <li>Predicatable costs</li>
+                <li>Most medical costs are deducted from Social Security</li>
+            </ul>
+            Cons
+            <ul>
+                <li>3+ plans to manage</li>
+                <li>If you have no medical problems then it's more expensive</li>
+            </ul>
+        </div>
+    </section>
+    <section id="advantage_plan" class="none">
+        <h3>Advantage plan</h3>
+        <ul>
+            <li>~0-$50 premium</li>
+            <li>1 card</li>
+            <li>Includes prescription</li>
+            <li>Includes hearing/vision/dental</li>
+            <li>Has max out of pocket</li>
+            <li>Co-payments: most things require a payment</li>
+            <li>Network reliant</li>
+            <li>Requires referrals from primary physician</li>
+        </ul>
+        <div id="pro_con_lists_for_advantage" class="none">
+            Pro
+            <ul>
+                <li>1 card</li>
+                <li>Perks (vary): fitness and etc</li>
+                <li>Most medical costs are deducted from Social Security</li>
+                <li>If you seldom go to the doctor, it's cheaper</li>
+                <li>Easy to change each year</li>
+            </ul>
+            Cons
+            <ul>
+                <li>More expensive if you have large medical proceedures </li>
+                <li>All medical plans are linked to one provider, less customization</li>
+            </ul>
+        </div>
+    </section>
+</section>
+
+</body>
+</html>

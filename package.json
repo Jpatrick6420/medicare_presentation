@@ -1,5 +1,5 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "medicare_65_presentation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
